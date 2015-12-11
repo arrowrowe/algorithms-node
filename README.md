@@ -1,2 +1,2 @@
-# algorithms
-Algorithms playground for common questions. Inspired by https://github.com/sagivo/algorithms.
+# Algorithms
+Algorithms playground for common questions. Inspired by [sagivo/algorithms](https://github.com/sagivo/algorithms).
