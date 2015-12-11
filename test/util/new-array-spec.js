@@ -7,4 +7,8 @@ describe('The utility newArray', () => {
     expect(newArray(2, null)).to.eql([null, null]);
     expect(newArray(3)).to.eql([undefined, undefined, undefined]);
   });
+  it('supports a constructor function for each element as well', () => {
+    expect(newArray(5, x => x)).to.eql([0, 1, 2, 3, 4]);
+    expect(newArray(10, x => x === 7 ? 'me' : 'he')).to.eql(['he', 'he', 'he', 'he', 'he', 'he', 'he', 'me', 'he', 'he']);
+  });
 });

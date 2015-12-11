@@ -1,4 +1,5 @@
 module.exports = {
   version: require('./package').version,
-  dijkstra: require('./alg/dijkstra')
+  dijkstra: require('./alg/dijkstra'),
+  kruskal: require('./alg/kruskal')
 };
