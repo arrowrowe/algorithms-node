@@ -1,5 +1,5 @@
-# Algorithms
-Algorithms playground for common questions. Inspired by [sagivo/algorithms](https://github.com/sagivo/algorithms).
+# Algorithms (Node)
+Algorithms playground for common questions in Node. Inspired by [sagivo/algorithms](https://github.com/sagivo/algorithms).
 
 ## Problems
 | problem | solution |

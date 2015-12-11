@@ -1,5 +1,5 @@
 {
-  "name": "algorithms",
+  "name": "algorithms-node",
   "version": "0.0.1",
   "description": "Algorithms playground for common questions. Inspired by sagivo/algorithms.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arrowrowe/algorithms.git"
+    "url": "git+https://github.com/arrowrowe/algorithms-node.git"
   },
   "keywords": [
     "algorithms"
@@ -16,9 +16,9 @@
   "author": "arrowrowe <arrowrowe@gmail.com> (https://github.com/arrowrowe)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arrowrowe/algorithms/issues"
+    "url": "https://github.com/arrowrowe/algorithms-node/issues"
   },
-  "homepage": "https://github.com/arrowrowe/algorithms",
+  "homepage": "https://github.com/arrowrowe/algorithms-node",
   "devDependencies": {
     "chai": "3.4.1",
     "ghooks": "1.0.1",
