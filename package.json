@@ -21,7 +21,13 @@
   "homepage": "https://github.com/arrowrowe/algorithms",
   "devDependencies": {
     "chai": "3.4.1",
+    "ghooks": "1.0.1",
     "istanbul": "0.4.1",
     "mocha": "2.3.4"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm test"
+    }
   }
 }
