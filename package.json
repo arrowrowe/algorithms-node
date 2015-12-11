@@ -1,0 +1,27 @@
+{
+  "name": "algorithms",
+  "version": "0.0.1",
+  "description": "Algorithms playground for common questions. Inspired by sagivo/algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha 'test/**/*-spec.js' -- -R spec && istanbul check-coverage --statement 100 --branch 100 --function 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arrowrowe/algorithms.git"
+  },
+  "keywords": [
+    "algorithms"
+  ],
+  "author": "arrowrowe <arrowrowe@gmail.com> (https://github.com/arrowrowe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arrowrowe/algorithms/issues"
+  },
+  "homepage": "https://github.com/arrowrowe/algorithms",
+  "devDependencies": {
+    "chai": "3.4.1",
+    "istanbul": "0.4.1",
+    "mocha": "2.3.4"
+  }
+}
