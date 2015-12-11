@@ -10,7 +10,7 @@ module.exports = (y, delta) => {
   delta = delta || .001;
   let x = y / 2;
   for(;;) {
-    let dx = x / 2 - y / (2 * x);
+    const dx = x / 2 - y / (2 * x);
     if (Math.abs(dx) < delta) {
       break;
     }
