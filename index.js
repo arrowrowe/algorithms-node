@@ -1,3 +1,4 @@
+/* eslint comma-dangle: [2, "always-multiline"] */
 module.exports = {
   version: require('./package').version,
   dijkstra: require('./alg/dijkstra'),

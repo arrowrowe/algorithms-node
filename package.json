@@ -4,6 +4,7 @@
   "description": "Algorithms playground for common questions. Inspired by sagivo/algorithms.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "istanbul cover _mocha 'test/**/*-spec.js' -- -R spec && istanbul check-coverage --statement 100 --branch 100 --function 100"
   },
   "repository": {
@@ -21,13 +22,14 @@
   "homepage": "https://github.com/arrowrowe/algorithms-node",
   "devDependencies": {
     "chai": "3.4.1",
+    "eslint": "1.10.3",
     "ghooks": "1.0.1",
     "istanbul": "0.4.1",
     "mocha": "2.3.4"
   },
   "config": {
     "ghooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "npm run lint && npm test"
     }
   }
 }
