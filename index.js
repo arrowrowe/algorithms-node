@@ -3,4 +3,5 @@ module.exports = {
   dijkstra: require('./alg/dijkstra'),
   kruskal: require('./alg/kruskal'),
   sqrt: require('./alg/sqrt'),
+  binarySearch: require('./alg/binary-search'),
 };
