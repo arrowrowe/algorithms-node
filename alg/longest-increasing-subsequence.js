@@ -1,5 +1,7 @@
 'use strict';
 
+const newArray = require('../util/new-array');
+
 module.exports = X => {
   const N = X.length;
   let P = new Array(N);
@@ -13,9 +15,12 @@ module.exports = X => {
     P[i] = M[newL - 1];
     M[newL] = i;
   }
+  return newArray(L, (i, k) => i ? P[k] : M[L]).reverse().map(k => X[k]);
+  /* or equivalently (and efficiently):
   let S = new Array(L);
   for (let i = L - 1, k = M[L]; i >= 0; i--, k = P[k]) {
     S[i] = X[k];
   }
   return S;
+  */
 };

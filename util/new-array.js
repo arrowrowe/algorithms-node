@@ -6,7 +6,7 @@ module.exports = (length, fillWith) => {
     fillWith :
     () => fillWith;
   for (let i = 0; i < length; i++) {
-    newArray[i] = fillWithFn(i);
+    newArray[i] = fillWithFn(i, newArray[i - 1], newArray);
   }
   return newArray;
 };

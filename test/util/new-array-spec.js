@@ -11,4 +11,10 @@ describe('The utility newArray', () => {
     expect(newArray(5, x => x)).to.eql([0, 1, 2, 3, 4]);
     expect(newArray(10, x => x === 7 ? 'me' : 'he')).to.eql(['he', 'he', 'he', 'he', 'he', 'he', 'he', 'me', 'he', 'he']);
   });
+  it('supports look-before constructors', () => {
+    const hailstone = (n, length) => newArray(length, (i, k) => i ? (k % 2 ? k * 3 + 1 : k / 2) : n);
+    expect(hailstone(5, 9)).to.eql([5, 16, 8, 4, 2, 1, 4, 2, 1]);
+    const fibonacci = length => newArray(length, (i, k, f) => i < 2 ? 1 : f[i - 1] + f[i - 2]);
+    expect(fibonacci(7)).to.eql([1, 1, 2, 3, 5, 8, 13]);
+  });
 });
