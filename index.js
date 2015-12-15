@@ -5,4 +5,5 @@ module.exports = {
   kruskal: require('./alg/kruskal'),
   sqrt: require('./alg/sqrt'),
   binarySearch: require('./alg/binary-search'),
+  longestIncreasingSubsequence: require('./alg/longest-increasing-subsequence'),
 };

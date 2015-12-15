@@ -1,34 +1,21 @@
 'use strict';
 
 module.exports = X => {
-  // TODO: Rewrite.
   const N = X.length;
   let P = new Array(N);
   let M = new Array(N + 1);
   let L = 0;
   for (let i = 0; i < N; i++) {
-    let lo = 1;
-    let hi = L;
-    while (lo <= hi) {
-      let mid = Math.ceil((lo + hi) / 2);
-      if (X[M[mid]] < X[i]) {
-        lo = mid + 1;
-      } else {
-        hi = mid - 1;
-      }
+    let newL = M.findIndex(m => X[m] > X[i]);
+    if (newL === -1) {
+      newL = ++L;
     }
-    let newL = lo;
     P[i] = M[newL - 1];
     M[newL] = i;
-    if (newL > L) {
-      L = newL;
-    }
   }
   let S = new Array(L);
-  let k = M[L];
-  for (let i = L - 1; i >= 0; i--) {
+  for (let i = L - 1, k = M[L]; i >= 0; i--, k = P[k]) {
     S[i] = X[k];
-    k = P[k];
   }
   return S;
 };
