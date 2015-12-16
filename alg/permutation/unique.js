@@ -1,6 +1,5 @@
 'use strict';
 
-const transformGenerate = require('./transform-generate');
-const transformApply = require('./transform-apply');
+const permutationSimpleByTransform = require('./simple-by-transform');
 
-module.exports = array => transformGenerate(array.length).map(transform => transformApply(array, transform)).filter(array => !array.duplicate);
+module.exports = array => permutationSimpleByTransform(array).filter(array => !array.duplicate);
