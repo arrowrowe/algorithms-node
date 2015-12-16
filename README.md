@@ -1,4 +1,13 @@
 # Algorithms (Node)
+
+[![build status][build-badge]][build-url]
+[![coverage][coverage-badge]][coverage-url]
+
+[build-badge]: https://api.travis-ci.org/arrowrowe/algorithms-node.svg
+[build-url]: https://travis-ci.org/arrowrowe/algorithms-node
+[coverage-badge]: http://codecov.io/github/arrowrowe/algorithms-node/coverage.svg?branch=master
+[coverage-url]: http://codecov.io/github/arrowrowe/algorithms-node?branch=master
+
 Algorithms playground for common questions in Node. Inspired by [sagivo/algorithms](https://github.com/sagivo/algorithms).
 
 ## Problems
