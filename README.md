@@ -22,3 +22,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Finding all combinations of well-formed brackets](http://stackoverflow.com/questions/727707/finding-all-combinations-of-well-formed-brackets) | [solution](alg/bracket.js) | [test](test/alg/bracket-spec.js) |
 | [Finding the powerset of a set](http://en.wikipedia.org/wiki/Power_set) | [solution](alg/powerset.js) | [test](test/alg/powerset-spec.js) |
 | [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) | [solution](alg/life/evolve.js) | [test](test/alg/life/evolve-spec.js) |
+
+## Contribute
+
+Find a bug? Come across improvement or new problems? [Open issues](https://github.com/arrowrowe/algorithms-node/issues/new) or send PR!
