@@ -9,4 +9,5 @@ module.exports = {
   permutation: require('./alg/permutation'),
   bracket: require('./alg/bracket'),
   powerset: require('./alg/powerset'),
+  life: require('./alg/life'),
 };

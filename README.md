@@ -21,3 +21,4 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Find all permutations of array](https://en.wikipedia.org/wiki/Permutation) | [simple](alg/permutation/simple.js), [unique](alg/permutation/unique.js) | [simple](test/alg/permutation/simple-spec.js), [unique](test/alg/permutation/unique-spec.js) |
 | [Finding all combinations of well-formed brackets](http://stackoverflow.com/questions/727707/finding-all-combinations-of-well-formed-brackets) | [solution](alg/bracket.js) | [test](test/alg/bracket-spec.js) |
 | [Finding the powerset of a set](http://en.wikipedia.org/wiki/Power_set) | [solution](alg/powerset.js) | [test](test/alg/powerset-spec.js) |
+| [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) | [solution](alg/life/evolve.js) | [test](test/alg/life/evolve-spec.js) |
