@@ -7,4 +7,5 @@ module.exports = {
   binarySearch: require('./alg/binary-search'),
   longestIncreasingSubsequence: require('./alg/longest-increasing-subsequence'),
   permutation: require('./alg/permutation'),
+  bracket: require('./alg/bracket'),
 };
