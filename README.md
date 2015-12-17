@@ -11,13 +11,13 @@
 Algorithms playground for common questions in Node. Inspired by [sagivo/algorithms](https://github.com/sagivo/algorithms).
 
 ## Problems
-| problem | solution |
-|---------|----------|
-| [Dijkstra's shortest path between two nodes](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) | [click](alg/dijkstra.js) |
-| [Kruskal's minimum spanning tree algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm) | [click](alg/kruskal.js) |
-| [Find the square root of a number using Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) | [click](alg/sqrt.js) |
-| [Binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [click](alg/binary-search.js) |
-| [Longest increasing subsequence](http://en.wikipedia.org/wiki/Longest_increasing_subsequence) | [click](alg/longest-increasing-subsequence.js) |
-| [Find all permutations of array](https://en.wikipedia.org/wiki/Permutation) | click([1](alg/permutation/simple.js), [2](alg/permutation/unique.js)) |
-| [Finding all combinations of well-formed brackets](http://stackoverflow.com/questions/727707/finding-all-combinations-of-well-formed-brackets) | [click](alg/bracket.js) |
-| [Finding the powerset of a set](http://en.wikipedia.org/wiki/Power_set) | [click](alg/powerset.js) |
+| problem | solution | test |
+|---------|----------|------|
+| [Dijkstra's shortest path between two nodes](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) | [solution](alg/dijkstra.js) | [test](test/alg/dijkstra-spec.js) |
+| [Kruskal's minimum spanning tree algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm) | [solution](alg/kruskal.js) | [test](test/alg/kruskal-spec.js) |
+| [Find the square root of a number using Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) | [solution](alg/sqrt.js) | [test](test/alg/sqrt-spec.js) |
+| [Binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [solution](alg/binary-search.js) | [test](test/alg/binary-search-spec.js) |
+| [Longest increasing subsequence](http://en.wikipedia.org/wiki/Longest_increasing_subsequence) | [solution](alg/longest-increasing-subsequence.js) | [test](test/alg/longest-increasing-subsequence-spec.js) |
+| [Find all permutations of array](https://en.wikipedia.org/wiki/Permutation) | [simple](alg/permutation/simple.js), [unique](alg/permutation/unique.js) | [simple](test/alg/permutation/simple-spec.js), [unique](test/alg/permutation/unique-spec.js) |
+| [Finding all combinations of well-formed brackets](http://stackoverflow.com/questions/727707/finding-all-combinations-of-well-formed-brackets) | [solution](alg/bracket.js) | [test](test/alg/bracket-spec.js) |
+| [Finding the powerset of a set](http://en.wikipedia.org/wiki/Power_set) | [solution](alg/powerset.js) | [test](test/alg/powerset-spec.js) |
