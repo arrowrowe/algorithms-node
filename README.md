@@ -25,4 +25,4 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 
 ## Contribute
 
-Find a bug? Come across improvement or new problems? [Open issues](https://github.com/arrowrowe/algorithms-node/issues/new) or send PR!
+Find a bug? Come across improvement or new problems? [Open issues](https://github.com/arrowrowe/algorithms-node/issues/new) or send a PR!
