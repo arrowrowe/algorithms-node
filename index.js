@@ -8,4 +8,5 @@ module.exports = {
   longestIncreasingSubsequence: require('./alg/longest-increasing-subsequence'),
   permutation: require('./alg/permutation'),
   bracket: require('./alg/bracket'),
+  powerset: require('./alg/powerset'),
 };
