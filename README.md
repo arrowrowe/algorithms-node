@@ -11,8 +11,8 @@
 Algorithms playground for common questions in Node. Inspired by [sagivo/algorithms](https://github.com/sagivo/algorithms).
 
 ## Problems
-| problem | solution | test |
-|---------|----------|------|
+| problem | solution | [test][build-url] |
+|---------|----------|-------------------|
 | [Dijkstra's shortest path between two nodes](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) | [solution](alg/dijkstra.js) | [test](test/alg/dijkstra-spec.js) |
 | [Kruskal's minimum spanning tree algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm) | [solution](alg/kruskal.js) | [test](test/alg/kruskal-spec.js) |
 | [Find the square root of a number using Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method) | [solution](alg/sqrt.js) | [test](test/alg/sqrt-spec.js) |
