@@ -10,4 +10,5 @@ module.exports = {
   bracket: require('./alg/bracket'),
   powerset: require('./alg/powerset'),
   life: require('./alg/life'),
+  joinSet: require('./alg/join-set'),
 };
