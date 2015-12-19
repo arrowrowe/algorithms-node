@@ -24,6 +24,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) | [solution](alg/life/evolve.js) | [test](test/alg/life/evolve-spec.js) |
 | Print all combinations of set joining | [solution](alg/join-set.js) | [test](test/alg/join-set-spec.js) |
 | [Telephone number to words](http://www.mobilefish.com/services/phonenumber_words/phonenumber_words.php) | [solution](alg/telword.js) | [test](test/alg/telword-spec.js) |
+| [Find the smallest biggest number that has the same digits](http://stackoverflow.com/questions/9368205/given-a-number-find-the-next-higher-number-which-has-the-exact-same-set-of-digi) | [solution](alg/smallest-bigger-with-same-digits.js) | [test](test/alg/smallest-bigger-with-same-digits-spec.js) |
 
 ## Contribute
 

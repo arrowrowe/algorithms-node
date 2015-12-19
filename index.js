@@ -12,4 +12,5 @@ module.exports = {
   life: require('./alg/life'),
   joinSet: require('./alg/join-set'),
   telword: require('./alg/telword'),
+  smallestBiggerWithSameDigits: require('./alg/smallest-bigger-with-same-digits'),
 };
