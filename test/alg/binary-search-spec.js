@@ -1,4 +1,4 @@
-var binarySearch = require('../../alg/binary-search');
+var binarySearch = require('../../index').binarySearch;
 var expect = require('chai').expect;
 
 describe('Binary search algorithm', () => {

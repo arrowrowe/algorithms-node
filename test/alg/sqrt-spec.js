@@ -1,4 +1,4 @@
-var sqrt = require('../../alg/sqrt');
+var sqrt = require('../../index').sqrt;
 var expect = require('chai').expect;
 
 describe('Newton\'s method for square root', () => {

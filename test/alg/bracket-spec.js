@@ -1,4 +1,4 @@
-var bracket = require('../../alg/bracket');
+var bracket = require('../../index').bracket;
 var expect = require('chai').expect;
 
 describe('Brackets-finding', () => {

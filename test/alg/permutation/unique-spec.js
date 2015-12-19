@@ -1,4 +1,4 @@
-var permutationUnique = require('../../../alg/permutation/unique');
+var permutationUnique = require('../../../index').permutation.unique;
 var expect = require('chai').expect;
 
 describe('Permutation-unique', () => {

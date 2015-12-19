@@ -1,4 +1,4 @@
-var lifeNeighbor = require('../../../alg/life/neighbor');
+var lifeNeighbor = require('../../../index').life.neighbor;
 var expect = require('chai').expect;
 
 describe('Life-neighbor', () => {

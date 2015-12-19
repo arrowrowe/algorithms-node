@@ -1,4 +1,4 @@
-var joinSet = require('../../alg/join-set');
+var joinSet = require('../../index').joinSet;
 var expect = require('chai').expect;
 
 describe('Join-set', () => {

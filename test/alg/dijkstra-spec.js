@@ -1,4 +1,4 @@
-var dijkstra = require('../../alg/dijkstra');
+var dijkstra = require('../../index').dijkstra;
 var expect = require('chai').expect;
 
 describe('Dijkstra\'s algorithm', () => {

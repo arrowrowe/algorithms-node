@@ -1,4 +1,4 @@
-var kruskal = require('../../alg/kruskal');
+var kruskal = require('../../index').kruskal;
 var expect = require('chai').expect;
 
 describe('Kruskal\'s algorithm', () => {

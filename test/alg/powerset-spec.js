@@ -1,4 +1,4 @@
-var powerset = require('../../alg/powerset');
+var powerset = require('../../index').powerset;
 var expect = require('chai').expect;
 
 describe('Powerset-finding', () => {

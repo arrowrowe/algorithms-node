@@ -1,4 +1,4 @@
-var lifeEvolve = require('../../../alg/life/evolve');
+var lifeEvolve = require('../../../index').life.evolve;
 var expect = require('chai').expect;
 
 describe('Life-evolve', () => {

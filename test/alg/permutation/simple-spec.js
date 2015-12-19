@@ -1,4 +1,4 @@
-var permutationSimple = require('../../../alg/permutation/simple');
+var permutationSimple = require('../../../index').permutation.simple;
 var permutationSimpleByTransform = require('../../../alg/permutation/simple-by-transform');
 var expect = require('chai').expect;
 

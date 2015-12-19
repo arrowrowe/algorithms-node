@@ -1,4 +1,4 @@
-var longestIncreasingSubsequence = require('../../alg/longest-increasing-subsequence');
+var longestIncreasingSubsequence = require('../../index').longestIncreasingSubsequence;
 var expect = require('chai').expect;
 
 describe('The longest increasing subsequence problem', () => {

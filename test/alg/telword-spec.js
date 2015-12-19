@@ -1,4 +1,4 @@
-var telword = require('../../alg/telword');
+var telword = require('../../index').telword;
 var expect = require('chai').expect;
 
 describe('Telword', () => {
