@@ -11,4 +11,5 @@ module.exports = {
   powerset: require('./alg/powerset'),
   life: require('./alg/life'),
   joinSet: require('./alg/join-set'),
+  telword: require('./alg/telword'),
 };

@@ -23,6 +23,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Finding the powerset of a set](http://en.wikipedia.org/wiki/Power_set) | [solution](alg/powerset.js) | [test](test/alg/powerset-spec.js) |
 | [Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) | [solution](alg/life/evolve.js) | [test](test/alg/life/evolve-spec.js) |
 | Print all combinations of set joining | [solution](alg/join-set.js) | [test](test/alg/join-set-spec.js) |
+| [Telephone number to words](http://www.mobilefish.com/services/phonenumber_words/phonenumber_words.php) | [solution](alg/telword.js) | [test](test/alg/telword-spec.js) |
 
 ## Contribute
 
