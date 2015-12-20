@@ -13,4 +13,5 @@ module.exports = {
   joinSet: require('./alg/join-set'),
   telword: require('./alg/telword'),
   smallestBiggerWithSameDigits: require('./alg/smallest-bigger-with-same-digits'),
+  palindrome: require('./alg/palindrome.js'),
 };
