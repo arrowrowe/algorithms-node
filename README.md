@@ -26,6 +26,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Telephone number to words](http://www.mobilefish.com/services/phonenumber_words/phonenumber_words.php) | [solution](alg/telword.js) | [test](test/alg/telword-spec.js) |
 | [Find the smallest biggest number that has the same digits](http://stackoverflow.com/questions/9368205/given-a-number-find-the-next-higher-number-which-has-the-exact-same-set-of-digi) | [solution](alg/smallest-bigger-with-same-digits.js) | [test](test/alg/smallest-bigger-with-same-digits-spec.js) |
 | Find the minimum insertions needed to make a word palindrome | [solution](alg/palindrome/insert.js) | [test](test/alg/palindrome/insert-spec.js) |
+| [String matching - Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) | [solution](alg/kmp.js) | [test](test/alg/kmp-spec.js) |
 
 ## Contribute
 
