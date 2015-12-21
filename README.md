@@ -27,6 +27,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Find the smallest biggest number that has the same digits](http://stackoverflow.com/questions/9368205/given-a-number-find-the-next-higher-number-which-has-the-exact-same-set-of-digi) | [solution](alg/smallest-bigger-with-same-digits.js) | [test](test/alg/smallest-bigger-with-same-digits-spec.js) |
 | Find the minimum insertions needed to make a word palindrome | [solution](alg/palindrome/insert.js) | [test](test/alg/palindrome/insert-spec.js) |
 | [String matching - Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) | [solution](alg/kmp.js) | [test](test/alg/kmp-spec.js) |
+| [Balanced Parentheses](http://stackoverflow.com/questions/14930073/how-to-check-if-a-string-is-balanced) | [solution](alg/is-balanced.js) | [test](test/alg/is-balanced-spec.js) |
 
 ## Contribute
 
