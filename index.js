@@ -17,4 +17,5 @@ module.exports = {
   kmp: require('./alg/kmp.js'),
   isBalanced: require('./alg/is-balanced.js'),
   sort: require('./alg/sort'),
+  knapsack: require('./alg/knapsack'),
 };

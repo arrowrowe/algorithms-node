@@ -32,6 +32,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Mergesort algorithm](https://en.wikipedia.org/wiki/Merge_sort) | [solution](alg/sort/merge.js) | [test](test/alg/sort-spec.js) |
 | [Countingsort algorithm](http://en.wikipedia.org/wiki/Counting_sort) | [solution](alg/sort/count.js) | [test](test/alg/sort-spec.js) |
 | [Shellsort algorithm](http://en.wikipedia.org/wiki/Shellsort) | [solution](alg/sort/shell.js) | [test](test/alg/sort-spec.js) |
+| [Knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem) | [solution](alg/knapsack.js) | [test](test/alg/knapsack-spec.js) |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | [solution](alg/sort/insert.js) | [test](test/alg/sort-spec.js) |
 
 ## Contribute
