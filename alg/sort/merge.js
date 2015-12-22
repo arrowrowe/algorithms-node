@@ -1,5 +1,7 @@
 'use strict';
 
+const reduce = require('../../util/reduce');
+
 const mergeSorted = (a, b) => {
   const m = a.length, n = b.length;
   let c = new Array(m + n);
@@ -18,15 +20,6 @@ const mergeSorted = (a, b) => {
       }
     }
   }
-};
-
-const reduce = (array, fn, defaultValue) => {
-  while (array.length > 1) {
-    for (let i = 1; i < array.length; i ++) {
-      array.splice(i - 1, 2, fn(array[i - 1], array[i]));
-    }
-  }
-  return array.length ? array[0] : defaultValue;
 };
 
 module.exports = a => reduce(a.map(e => [e]), mergeSorted, []);
