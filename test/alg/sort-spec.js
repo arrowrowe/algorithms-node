@@ -8,7 +8,7 @@ var naturals = length => newArray(length, i => i + 1);
 var copyArray = a => a.length <= 1 ? a : Array.apply([], a);
 
 describe('Sort algorithms', () => {
-  var T = array => {
+  var _T = array => {
     var arrayOrigin = copyArray(array);
     array.sort();
     for (var methodName in sort) {
@@ -17,7 +17,11 @@ describe('Sort algorithms', () => {
       expect(method(arrayToSort)).to.eql(array);
     }
   };
+  var T = array => permutationSimple(array).forEach(_T);
   it('sorts a given array', () => {
-    naturals(5).forEach(n => permutationSimple(naturals(n - 1)).forEach(T));
+    // Natrual rearrangements
+    naturals(5).forEach(n => T(naturals(n - 1)));
+    // Duiplicated Natural
+    T([1, 1, 2, 3]);
   });
 });
