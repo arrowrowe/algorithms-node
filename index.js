@@ -18,4 +18,5 @@ module.exports = {
   isBalanced: require('./alg/is-balanced.js'),
   sort: require('./alg/sort'),
   knapsack: require('./alg/knapsack'),
+  longestCommonSubsequence: require('./alg/longest-common-subsequence'),
 };
