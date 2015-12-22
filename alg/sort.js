@@ -2,5 +2,7 @@
 module.exports = {
   merge: require('./sort/merge'),
   count: require('./sort/count'),
+  bubble: require('./sort/bubble'),
+  shell: require('./sort/shell'),
   insert: require('./sort/insert'),
 };
