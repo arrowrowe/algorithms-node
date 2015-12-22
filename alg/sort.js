@@ -2,4 +2,5 @@
 module.exports = {
   merge: require('./sort/merge'),
   count: require('./sort/count'),
+  insert: require('./sort/insert'),
 };

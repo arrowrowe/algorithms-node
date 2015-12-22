@@ -30,6 +30,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Balanced Parentheses](http://stackoverflow.com/questions/14930073/how-to-check-if-a-string-is-balanced) | [solution](alg/is-balanced.js) | [test](test/alg/is-balanced-spec.js) |
 | [Mergesort algorithm](https://en.wikipedia.org/wiki/Merge_sort) | [solution](alg/sort/merge.js) | [test](test/alg/sort-spec.js) |
 | [Countingsort algorithm](http://en.wikipedia.org/wiki/Counting_sort) | [solution](alg/sort/count.js) | [test](test/alg/sort-spec.js) |
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | [solution](alg/sort/insert.js) | [test](test/alg/sort-spec.js) |
 
 ## Contribute
 
