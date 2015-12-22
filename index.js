@@ -16,4 +16,5 @@ module.exports = {
   palindrome: require('./alg/palindrome.js'),
   kmp: require('./alg/kmp.js'),
   isBalanced: require('./alg/is-balanced.js'),
+  sort: require('./alg/sort'),
 };
