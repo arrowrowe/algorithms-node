@@ -28,6 +28,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | Find the minimum insertions needed to make a word palindrome | [solution](alg/palindrome/insert.js) | [test](test/alg/palindrome/insert-spec.js) |
 | [String matching - Knuth Morris Pratt algorithm KMP](http://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) | [solution](alg/kmp.js) | [test](test/alg/kmp-spec.js) |
 | [Balanced Parentheses](http://stackoverflow.com/questions/14930073/how-to-check-if-a-string-is-balanced) | [solution](alg/is-balanced.js) | [test](test/alg/is-balanced-spec.js) |
+| [Quicksort algorithm](http://en.wikipedia.org/wiki/Quicksort) | [solution](alg/sort/quick.js) | [test](test/alg/sort-spec.js) |
 | [Mergesort algorithm](https://en.wikipedia.org/wiki/Merge_sort) | [solution](alg/sort/merge.js) | [test](test/alg/sort-spec.js) |
 | [Countingsort algorithm](http://en.wikipedia.org/wiki/Counting_sort) | [solution](alg/sort/count.js) | [test](test/alg/sort-spec.js) |
 | [Shellsort algorithm](http://en.wikipedia.org/wiki/Shellsort) | [solution](alg/sort/shell.js) | [test](test/alg/sort-spec.js) |
