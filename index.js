@@ -20,4 +20,5 @@ module.exports = {
   knapsack: require('./alg/knapsack'),
   longestCommonSubsequence: require('./alg/longest-common-subsequence'),
   montyHall: require('./alg/monty-hall'),
+  gcd: require('./alg/gcd'),
 };
