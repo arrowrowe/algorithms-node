@@ -34,6 +34,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Shellsort algorithm](http://en.wikipedia.org/wiki/Shellsort) | [solution](alg/sort/shell.js) | [test](test/alg/sort-spec.js) |
 | [Knapsack problem](http://en.wikipedia.org/wiki/Knapsack_problem) | [solution](alg/knapsack.js) | [test](test/alg/knapsack-spec.js) |
 | [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) | [solution](alg/longest-common-subsequence.js) | [test](test/alg/longest-common-subsequence-spec.js) |
+| [Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_hall_problem) | [solution](alg/monty-hall.js) | [test](test/alg/monty-hall-spec.js) |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | [solution](alg/sort/insert.js) | [test](test/alg/sort-spec.js) |
 
 ## Contribute
