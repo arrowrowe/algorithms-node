@@ -36,6 +36,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Longest common subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) | [solution](alg/longest-common-subsequence.js) | [test](test/alg/longest-common-subsequence-spec.js) |
 | [Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_hall_problem) | [solution](alg/monty-hall.js) | [test](test/alg/monty-hall-spec.js) |
 | [Eucliden](https://en.wikipedia.org/wiki/Euclidean_algorithm) and [Extended Eucliden algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm) | [solution](alg/gcd.js) | [test](test/alg/gcd-spec.js) |
+| [Range minimum query sparse table algorithm](http://en.wikipedia.org/wiki/Range_minimum_query) | [solution](alg/range-minimum.js) | [test](test/alg/range-minimum-spec.js) |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | [solution](alg/sort/insert.js) | [test](test/alg/sort-spec.js) |
 
 ## Contribute

@@ -21,4 +21,5 @@ module.exports = {
   longestCommonSubsequence: require('./alg/longest-common-subsequence'),
   montyHall: require('./alg/monty-hall'),
   gcd: require('./alg/gcd'),
+  rangeMinimum: require('./alg/range-minimum'),
 };
