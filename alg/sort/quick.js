@@ -2,14 +2,14 @@
 
 const quickAdjust = require('../quick-adjust');
 
-const q = module.exports = (a, lo, hi) => {
-  lo = lo || 0;
-  hi = hi === undefined ? a.length : hi;
+const _quickSort = (array, lo, hi) => {
   if (hi - lo <= 1) {
-    return a;
+    return array;
   }
-  let pI = quickAdjust(a, Math.floor((lo + hi) / 2), lo, hi);
-  q(a, lo, pI);
-  q(a, pI + 1, hi);
-  return a;
+  let pI = quickAdjust(array, Math.floor((lo + hi) / 2), lo, hi);
+  _quickSort(array, lo, pI);
+  _quickSort(array, pI + 1, hi);
+  return array;
 };
+
+module.exports = array => _quickSort(array, 0, array.length);
