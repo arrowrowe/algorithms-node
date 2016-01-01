@@ -38,6 +38,7 @@ Algorithms playground for common questions in Node. Inspired by [sagivo/algorith
 | [Eucliden](https://en.wikipedia.org/wiki/Euclidean_algorithm) and [Extended Eucliden algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm) | [solution](alg/gcd.js) | [test](test/alg/gcd-spec.js) |
 | [Range minimum query sparse table algorithm](http://en.wikipedia.org/wiki/Range_minimum_query) | [solution](alg/range-minimum.js) | [test](test/alg/range-minimum-spec.js) |
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | [solution](alg/sort/insert.js) | [test](test/alg/sort-spec.js) |
+| [Quickselect](https://en.wikipedia.org/wiki/Quickselect) | [solution](alg/select.js) | [test](test/alg/select-spec.js) |
 
 ## Contribute
 

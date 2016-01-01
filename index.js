@@ -23,4 +23,5 @@ module.exports = {
   gcd: require('./alg/gcd'),
   rangeMinimum: require('./alg/range-minimum'),
   quickAdjust: require('./alg/quick-adjust'),
+  select: require('./alg/select'),
 };
