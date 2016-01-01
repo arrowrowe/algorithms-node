@@ -22,4 +22,5 @@ module.exports = {
   montyHall: require('./alg/monty-hall'),
   gcd: require('./alg/gcd'),
   rangeMinimum: require('./alg/range-minimum'),
+  quickAdjust: require('./alg/quick-adjust'),
 };
