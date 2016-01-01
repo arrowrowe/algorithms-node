@@ -10,6 +10,9 @@
 
 Algorithms playground for common questions in Node. Inspired by [sagivo/algorithms](https://github.com/sagivo/algorithms).
 
+Some of the problems are taken from:
+- [EvgenyKarkan/EKAlgorithms](https://github.com/EvgenyKarkan/EKAlgorithms)
+
 ## Problems
 | problem | solution | [test][build-url] |
 |---------|----------|-------------------|
