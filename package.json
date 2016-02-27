@@ -4,6 +4,7 @@
   "description": "Algorithms playground for common questions. Inspired by sagivo/algorithms.",
   "main": "index.js",
   "scripts": {
+    "typings": "typings install",
     "lint": "tslint {alg,test}/**/*.ts",
     "test": "mocha --require ts-node/register 'test/**/*-spec.ts'"
   },
@@ -27,7 +28,8 @@
     "mocha": "2.3.4",
     "ts-node": "0.5.5",
     "tslint": "3.5.0",
-    "typescript": "1.8.2"
+    "typescript": "1.8.2",
+    "typings": "0.6.8"
   },
   "config": {
     "ghooks": {
