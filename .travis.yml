@@ -4,7 +4,8 @@ node_js:
   - "5.2"
 
 install:
-  - npm install && npm install codecov.io
+  - npm install
+  # - npm install && npm install codecov.io
 
-after_success:
-  - cat ./coverage/lcov.info | ./node_modules/.bin/codecov
+# after_success:
+#   - cat ./coverage/lcov.info | ./node_modules/.bin/codecov

@@ -4,8 +4,8 @@
   "description": "Algorithms playground for common questions. Inspired by sagivo/algorithms.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "test": "istanbul cover _mocha 'test/**/*-spec.js' -- -R spec && istanbul check-coverage --statement 100 --branch 100 --function 100"
+    "lint": "tslint {alg,test}/**/*.ts",
+    "test": "mocha --require ts-node/register 'test/**/*-spec.ts'"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,10 @@
     "chai": "3.4.1",
     "eslint": "1.10.3",
     "ghooks": "1.0.1",
-    "istanbul": "0.4.1",
-    "mocha": "2.3.4"
+    "mocha": "2.3.4",
+    "ts-node": "0.5.5",
+    "tslint": "3.5.0",
+    "typescript": "1.8.2"
   },
   "config": {
     "ghooks": {
