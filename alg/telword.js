@@ -18,14 +18,14 @@ const digits = '0123456789'.split('');
     return this;
   },
   perform: function (tel) {
-    let keys = [];
-    let sentences = [];
+    const keys = [];
+    const sentences = [];
     let sentence = '';
     let telFulfilled = '';
-    let shouldConcat = i => keys.length && !(keys[keys.length - 1] < 10 && i < 10);
+    const shouldConcat = i => keys.length && !(keys[keys.length - 1] < 10 && i < 10);
     let initialKey = 0;
-    let subtail = (s, length) => s.substr(0, s.length - length);
-    let fallback = () => {
+    const subtail = (s, length) => s.substr(0, s.length - length);
+    const fallback = () => {
       if (keys.length === 0) {
         return false;
       }

@@ -4,7 +4,7 @@ const reduce = require('../../util/reduce');
 
 const mergeSorted = (a, b) => {
   const m = a.length, n = b.length;
-  let c = new Array(m + n);
+  const c = new Array(m + n);
   for (let i = 0, j = 0, k = 0; ; k++) {
     if (a[i] < b[j]) {
       c[k] = a[i];

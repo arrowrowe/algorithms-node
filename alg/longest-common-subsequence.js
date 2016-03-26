@@ -5,7 +5,7 @@ const maxBy = require('../util/max-by');
 
 module.exports = (X, Y) => {
   const n = X.length, m = Y.length;
-  let memo = newArray(n + 1, () => newArray(m + 1, null));
+  const memo = newArray(n + 1, () => newArray(m + 1, null));
   const lcs = (r, s) => {
     if (memo[r][s]) {
       return memo[r][s];

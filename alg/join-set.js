@@ -21,9 +21,9 @@ module.exports = arrays => {
   if (!n) {
     return [];
   }
-  let lengths = arrays.map(getLength);
-  let keys = newArray(n, 0);
-  let combinations = [];
+  const lengths = arrays.map(getLength);
+  const keys = newArray(n, 0);
+  const combinations = [];
   for (;;) {
     combinations.push(arrays.map((array, i) => array[keys[i]]));
     if (!inc(keys, lengths)) {

@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = a => {
-  let counts = [];
+  const counts = [];
   a.forEach(e => e in counts ? counts[e]++ : counts[e] = 1);
   let fillFrom = 0;
   counts.forEach((times, e) => {

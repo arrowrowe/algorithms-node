@@ -8,7 +8,7 @@ const planPush = (plan, pack) => ({
 });
 
 module.exports = packs => {
-  let planner = function (weightTotal) {
+  const planner = function (weightTotal) {
     if (weightTotal <= 0) {
       return {
         value: 0,

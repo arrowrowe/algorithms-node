@@ -5,7 +5,7 @@ module.exports = T => {
   if (L === 0) {
     return () => 0;
   }
-  let P = new Array(L);
+  const P = new Array(L);
   P[0] = 1;
   if (L > 1) {
     P[1] = T[0] === T[1] ? 2 : 1;

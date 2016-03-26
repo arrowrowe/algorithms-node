@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = A => {
-  let memo = [];
+  const memo = [];
   const getMemo = (i, r) => i in memo && r in memo[i] ? memo[i][r] : null;
   const setMemo = (i, r, value) => i in memo ? (memo[i][r] = value) : (memo[i] = [], memo[i][r] = value);
   const B = (i, r) => {
-    let value = getMemo(i, r);
+    const value = getMemo(i, r);
     if (value !== null) {
       return value;
     }

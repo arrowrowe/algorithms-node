@@ -17,11 +17,11 @@ module.exports = (distanceMatrix, initialIndex) => {
 
   const size = distanceMatrix.length;
 
-  let visited = newArray(size, false);
+  const visited = newArray(size, false);
   visited[initialIndex] = true;
-  let distances = newArray(size, Infinity);
+  const distances = newArray(size, Infinity);
   distances[initialIndex] = 0;
-  let unvisitedDistances = newArray(size, Infinity);
+  const unvisitedDistances = newArray(size, Infinity);
 
   const visit = currentIndex => {
     const currentDistance = distances[currentIndex];

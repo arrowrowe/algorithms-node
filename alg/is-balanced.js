@@ -6,7 +6,7 @@ const brackets = ['()', '[]', '{}'];
 const n = brackets.length;
 const getPart = c => {
   for (let i = 0; i < n; i++) {
-    let j = brackets[i].indexOf(c);
+    const j = brackets[i].indexOf(c);
     if (j >= 0) {
       return {
         kind: i,
@@ -18,9 +18,9 @@ const getPart = c => {
 };
 
 module.exports = source => {
-  let v = newArray(n, 0);
+  const v = newArray(n, 0);
   for (let k = 0; k < source.length; k++) {
-    let part = getPart(source[k]);
+    const part = getPart(source[k]);
     if (!part || (v[part.kind] += part.value) < 0) {
       return false;
     }

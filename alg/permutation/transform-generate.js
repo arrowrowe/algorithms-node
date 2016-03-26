@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = length => {
-  let transforms = [[]];
+  const transforms = [[]];
   for (let i = length - 2; i >= 0; i--) {
     const countBefore = transforms.length;
     for (let j = i + 1; j < length; j++) {

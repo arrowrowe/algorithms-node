@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = array => {
-  let  powerset = [[]];
+  const powerset = [[]];
   array.forEach(element => Array.prototype.push.apply(powerset, powerset.map(s => s.concat([element]))));
   return powerset;
 };

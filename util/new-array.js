@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = (length, fillWith) => {
-  let newArray = new Array(length);
+  const newArray = new Array(length);
   const fillWithFn = typeof fillWith === 'function' ?
     fillWith :
     () => fillWith;

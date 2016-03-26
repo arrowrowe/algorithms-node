@@ -6,7 +6,7 @@ const _quickSort = (array, lo, hi) => {
   if (hi - lo <= 1) {
     return array;
   }
-  let pI = quickAdjust(array, Math.floor((lo + hi) / 2), lo, hi);
+  const pI = quickAdjust(array, Math.floor((lo + hi) / 2), lo, hi);
   _quickSort(array, lo, pI);
   _quickSort(array, pI + 1, hi);
   return array;

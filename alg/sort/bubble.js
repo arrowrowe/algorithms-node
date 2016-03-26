@@ -1,5 +1,7 @@
 'use strict';
 
+const swap = require('../../util/swap');
+
 module.exports = (a, g, k) => {
   g = g || 1;
   k = k || 0;
@@ -8,9 +10,7 @@ module.exports = (a, g, k) => {
     for (let i = k; i < a.length; i += g) {
       if (a[i - g] > a[i]) {
         still = false;
-        let t = a[i];
-        a[i] = a[i - g];
-        a[i - g] = t;
+        swap(a, i, i - g);
       }
     }
     if (still) {

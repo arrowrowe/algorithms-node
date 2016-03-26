@@ -7,7 +7,7 @@ module.exports = (fn, array) => {
   let maxValue = fn(array[0]);
   let maxIndex = 0;
   for (let i = 1; i < array.length; i++) {
-    let newValue = fn(array[i]);
+    const newValue = fn(array[i]);
     if (newValue > maxValue) {
       maxValue = newValue;
       maxIndex = i;

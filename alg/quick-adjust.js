@@ -8,7 +8,7 @@ const triSwap = (a, i, j) => {
 };
 
 module.exports = (array, pivotIndex, lo, hi) => {
-  let pivotValue = array[pivotIndex];
+  const pivotValue = array[pivotIndex];
   let i = lo;
   for (; i < pivotIndex; i++) {
     if (array[i] > pivotValue) {

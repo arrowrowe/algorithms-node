@@ -18,12 +18,12 @@ const sortBy = require('../util/sort-by');
  */
 module.exports = graph => {
   // The new graph to be returned.
-  let forest = {
+  const forest = {
     vertex: graph.vertex,
     edge: []
   };
   // All trees in the forest defined above. Initially, each tree has only one vertex.
-  let trees = graph.vertex.map(vertex => [vertex]);
+  const trees = graph.vertex.map(vertex => [vertex]);
   // Find the index of the tree that one vertex belongs to.
   const indexOfTree = vertex => trees.findIndex(tree => tree.indexOf(vertex) >= 0);
   // Loop over all edges from short to long.

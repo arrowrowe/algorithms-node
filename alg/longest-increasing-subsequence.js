@@ -4,8 +4,8 @@ const newArray = require('../util/new-array');
 
 module.exports = X => {
   const N = X.length;
-  let P = new Array(N);
-  let M = new Array(N + 1);
+  const P = new Array(N);
+  const M = new Array(N + 1);
   let L = 0;
   for (let i = 0; i < N; i++) {
     let newL = M.findIndex(m => X[m] > X[i]);
